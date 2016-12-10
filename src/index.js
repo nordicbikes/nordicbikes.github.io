@@ -5,12 +5,13 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import App from 'grommet/components/App';
 import Box from 'grommet/components/Box';
-import Header from 'grommet/components/Header';
+//import Header from 'grommet/components/Header';
 import Footer from 'grommet/components/Footer';
-import Meter from 'grommet/components/Meter';
-import Title from 'grommet/components/Title';
-import Value from 'grommet/components/Value';
+//import Meter from 'grommet/components/Meter';
+//import Title from 'grommet/components/Title';
+//import Value from 'grommet/components/Value';
 import Section from 'grommet/components/Section';
+//import Image from 'grommet/components/Image';
 
 import MyHero from './components/MyHero';
 
