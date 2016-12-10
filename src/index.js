@@ -11,16 +11,15 @@ import Meter from 'grommet/components/Meter';
 import Title from 'grommet/components/Title';
 import Value from 'grommet/components/Value';
 
+import MyHero from './components/MyHero';
+
 class Main extends Component {
   render () {
     return (
       <App centered={false}>
         <Header direction="row" justify="between" size="large" pad={{horizontal: 'medium'}}>
-          <Title>Nordic Bikes</Title>
+          <MyHero/>
         </Header>
-        <Box pad='medium'>
-          <Meter value={100} />
-        </Box>
         <Footer
           primary={true}
           appCentered={true}
