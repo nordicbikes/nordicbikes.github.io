@@ -10,6 +10,7 @@ import Footer from 'grommet/components/Footer';
 import Meter from 'grommet/components/Meter';
 import Title from 'grommet/components/Title';
 import Value from 'grommet/components/Value';
+import Section from 'grommet/components/Section';
 
 import MyHero from './components/MyHero';
 
@@ -17,9 +18,15 @@ class Main extends Component {
   render () {
     return (
       <App centered={false}>
-        <Header direction="row" justify="between" size="large" pad={{horizontal: 'medium'}}>
-          <MyHero/>
-        </Header>
+        <MyHero/>
+        <Section>
+          <Box
+            full="horizontal"
+            pad="large"
+          >
+            Your premium quality customizable bicycles.
+          </Box>
+        </Section>
         <Footer
           primary={true}
           appCentered={true}

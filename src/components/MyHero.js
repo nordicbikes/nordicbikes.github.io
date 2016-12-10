@@ -11,7 +11,7 @@ class MyHero extends React.Component {
     return (
       <Hero
         background={
-          <Image src="/public/bikebeach.jpeg" fit="cover"/>
+          <Image src="/public/bikebeach.jpeg" size="large" fit="cover"/>
         }
         backgroundColorIndex="dark"
         size="large"
@@ -22,11 +22,13 @@ class MyHero extends React.Component {
              align="center">
           <Box basis="1/2"
                align="end"
-               pad="medium"/>
+               pad="medium">
+            <Image src="/public/wolf.png" size="small"/>
+          </Box>
           <Box basis="1/2"
                align="start"
                pad="medium">
-            <Heading margin="none">
+            <Heading margin="none" align="end" strong={true}>
               Nordic Bikes
             </Heading>
           </Box>
