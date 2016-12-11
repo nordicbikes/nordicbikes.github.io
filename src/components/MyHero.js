@@ -18,17 +18,19 @@ class MyHero extends React.Component {
       >
 
         <Box direction="row"
-             justify="center"
-             align="center">
-          <Box basis="1/2"
+             justify="end"
+             align="center"
+             textAlign="right"
+           >
+          <Box basis="small"
                align="end"
-               pad="medium">
+               pad="small">
             <Image src="/public/wolf.png" size="small"/>
           </Box>
-          <Box basis="1/2"
+          <Box basis="large"
                align="start"
-               pad="medium">
-            <Heading margin="none" align="end" strong={true}>
+               pad="none">
+            <Heading margin="none" uppercase={true} strong={false}>
               Nordic Bikes
             </Heading>
           </Box>

@@ -1,5 +1,5 @@
 //import styles
-import 'grommet/scss/vanilla/index';
+import 'grommet/scss/hpe/index';
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
@@ -24,6 +24,7 @@ class Main extends Component {
           <Box
             full="horizontal"
             pad="large"
+            align="center"
           >
             Your premium quality customizable bicycles.
           </Box>
@@ -33,6 +34,7 @@ class Main extends Component {
           appCentered={true}
           direction="column"
           align="center"
+          textAlign="center"
           pad="small"
           colorIndex="grey-1"
         >
