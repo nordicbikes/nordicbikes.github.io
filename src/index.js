@@ -10,25 +10,21 @@ import Footer from 'grommet/components/Footer';
 //import Meter from 'grommet/components/Meter';
 //import Title from 'grommet/components/Title';
 //import Value from 'grommet/components/Value';
-import Section from 'grommet/components/Section';
 //import Image from 'grommet/components/Image';
 
+import MyHeader from './components/MyHeader';
 import MyHero from './components/MyHero';
+import MainText from './components/MainText';
+import BikeCards from './components/BikeCards';
 
 class Main extends Component {
   render () {
     return (
       <App centered={false}>
+        <MyHeader/>
         <MyHero/>
-        <Section>
-          <Box
-            full="horizontal"
-            pad="large"
-            align="center"
-          >
-            Your premium quality customizable bicycles.
-          </Box>
-        </Section>
+        <MainText/>
+        <BikeCards/>
         <Footer
           primary={true}
           appCentered={true}

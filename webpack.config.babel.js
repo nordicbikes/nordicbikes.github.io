@@ -8,7 +8,7 @@ export default {
 		filename: 'index.js'
 	},
 	resolve: {
-		extensions: ['', '.js', '.scss', '.css']
+		extensions: ['', '.js', 'json', '.scss', '.css',]
 	},
 	plugins: [
 		new webpack.optimize.UglifyJsPlugin({
@@ -27,7 +27,11 @@ export default {
 			{
 			 test: /\.scss$/,
 			 loader: 'style!css!sass?outputStyle=compressed'
-		  }
+		  },
+      {
+        test: /\.json$/,
+        loaders: ["json"]
+      }
 		]
 	},
 	sassLoader: {
