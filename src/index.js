@@ -16,6 +16,7 @@ import MyHeader from './components/MyHeader';
 import MyHero from './components/MyHero';
 import MainText from './components/MainText';
 import BikeCards from './components/BikeCards';
+import MyFooter from './components/MyFooter';
 
 class Main extends Component {
   render () {
@@ -25,19 +26,7 @@ class Main extends Component {
         <MyHero/>
         <MainText/>
         <BikeCards/>
-        <Footer
-          primary={true}
-          appCentered={true}
-          direction="column"
-          align="center"
-          textAlign="center"
-          pad="small"
-          colorIndex="grey-1"
-        >
-          <p>
-            Copyright Nordic Bikes all rights protected
-          </p>
-        </Footer>
+        <MyFooter/>
       </App>
     );
   }

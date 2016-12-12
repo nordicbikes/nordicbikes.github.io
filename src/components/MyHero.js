@@ -20,7 +20,7 @@ class MyHero extends React.Component {
              justify="end"
              align="center"
              textAlign="right"
-           >
+        >
           <Box basis="small"
                align="end"
                pad="small">
