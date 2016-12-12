@@ -4,15 +4,14 @@ import Hero from 'grommet/components/Hero';
 import Image from 'grommet/components/Image';
 import Box from 'grommet/components/Box';
 import Heading from 'grommet/components/Heading';
+import Carousel from 'grommet/components/Carousel';
 
 class MyHero extends React.Component {
 
   render() {
     return (
       <Hero
-        background={
-          <Image src="/public/bikebeach.jpeg" size="large" fit="cover"/>
-        }
+        background={ <Image fit="cover" size="large" src="/public/bikebeach.jpeg" /> }
         backgroundColorIndex="dark"
         size="large"
       >
