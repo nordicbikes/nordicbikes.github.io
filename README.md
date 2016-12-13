@@ -7,7 +7,7 @@
 For cards to render, edit node_modules/remark-parse/lib/defaults.js
 
 ```command
-blocks: require('./block-elements.json'),
+blocks: require('./block-elements'),
 ```
 to
 ```command
