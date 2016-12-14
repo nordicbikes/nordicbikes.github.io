@@ -17,6 +17,7 @@ import MyHero from './components/MyHero';
 import MainText from './components/MainText';
 import BikeCards from './components/BikeCards';
 import MyFooter from './components/MyFooter';
+import BikeCustomizeCharts from './components/BikeCustomizeCharts';
 
 class Main extends Component {
   render () {
@@ -26,6 +27,7 @@ class Main extends Component {
         <MyHero/>
         <MainText/>
         <BikeCards/>
+        <BikeCustomizeCharts/>
         <MyFooter/>
       </App>
     );

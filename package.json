@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "grommet": "^1.0.0",
+    "grommet-addons": "^0.1.0",
     "json-loader": "^0.5.4",
     "postcss-loader": "^1.2.0",
     "react": "^15.2.0",

@@ -8,7 +8,7 @@ class BikeCards extends React.Component {
   render() {
     return (
       <Box align="center">
-        <Heading tag="h2">
+        <Heading tag="h1">
           Base Models
         </Heading>
         <Box
@@ -23,7 +23,7 @@ class BikeCards extends React.Component {
           >
             <Card thumbnail="/public/bike-silhouette.jpg"
                   heading="Casual"
-                  description="Our casual base model is for you who want to be fab"
+                  description="Our Casual base model is for you who want to be fab"
                   headingStrong={false}
                   textSize="large"
                   contentPad="large" />
@@ -36,7 +36,7 @@ class BikeCards extends React.Component {
           >
             <Card thumbnail="/public/bike-silhouette.jpg"
                   heading="Retro"
-                  description="The Retro bike is for you who want to be original"
+                  description="The Retro base model is for you who want to be original"
                   headingStrong={false}
                   textSize="large"
                   contentPad="large" />
