@@ -5,13 +5,14 @@ import Image from 'grommet/components/Image';
 import Box from 'grommet/components/Box';
 import Heading from 'grommet/components/Heading';
 import Carousel from 'grommet/components/Carousel';
+import styles from './MyHero.module.scss';
 
 class MyHero extends React.Component {
 
   render() {
     return (
       <Hero
-        background={ <Image fit="cover" size="large" src="/public/bikebeach.jpeg" /> }
+        background={ <Image fit="cover" size="large" src="/public/bikegrass.jpeg" /> }
         backgroundColorIndex="dark"
         size="large"
       >
@@ -29,7 +30,7 @@ class MyHero extends React.Component {
           <Box basis="large"
                align="start"
                pad="none">
-            <Heading margin="none" uppercase={true} strong={false}>
+            <Heading className={styles.heading} margin="none" uppercase={true} strong={false}>
               Nordic Bikes
             </Heading>
           </Box>
