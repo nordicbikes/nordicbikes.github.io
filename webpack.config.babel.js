@@ -1,7 +1,7 @@
 import webpack from 'webpack';
 
 export default {
-  devtool: 'source-map',
+  devtool: '',
 	entry: './src/index.js',
 	output: {
 		path: './dist',
