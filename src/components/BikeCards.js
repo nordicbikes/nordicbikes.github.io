@@ -7,7 +7,7 @@ class BikeCards extends React.Component {
 
   render() {
     return (
-      <Box align="center">
+      <Box align="center" pad="large">
         <Heading tag="h1">
           Base Models
         </Heading>

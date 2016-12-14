@@ -7,10 +7,14 @@ class MainText extends React.Component {
 
   render() {
     return (
-      <Section>
+      <Section
+          colorIndex="light-2"
+      >
         <Box
           basis="2/3"
           pad="large"
+          appCentered={true}
+          size="xlarge"
           align="center"
         >
           <Heading>
