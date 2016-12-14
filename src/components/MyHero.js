@@ -27,10 +27,10 @@ class MyHero extends React.Component {
                pad="small">
             <Image src="/public/wolf.png" size="small"/>
           </Box>
-          <Box basis="large"
+          <Box basis="medium"
                align="start"
                pad="none">
-            <Heading className={styles.heading} margin="none" uppercase={true} strong={false}>
+            <Heading className={styles.heading} tag="h2" margin="none" uppercase={true} strong={false}>
               Nordic Bikes
             </Heading>
           </Box>
